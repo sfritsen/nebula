@@ -1,1 +1,3 @@
-# nebula
+# Nebula CSS
+
+CSS framework

@@ -1,0 +1,40 @@
+/*
+** Base
+*/
+html {
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	font-size: $root-font-size;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+// Disable auto-scaling
+@media (min-width: 1600px) {
+    html.auto-scaling-disabled {
+        font-size: 62.5%;
+    }
+}
+@media (min-width: 1920px) {
+    html.auto-scaling-disabled {
+        font-size: 62.5%;
+    }
+}
+
+body {
+	background: $light-color;
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif, -apple-system, BlinkMacSystemFont, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 400;
+	color: rgba(0, 0, 0, 0.85);
+	line-height: 1.5;
+}
+hr {
+	background-color: rgba(0, 0, 0, 0.05);
+	border: none;
+    color: rgba(0, 0, 0, 0.05);
+	height: 1px;
+}
